@@ -1,0 +1,179 @@
+#menu, #menu ul    
+{
+padding : 0; 
+margin : 0; 
+list-style : none; 
+line-height : 25px; 
+text-align : center; 
+}
+
+#menu 
+{
+
+font-family : impact; 
+font-size : 14px;
+margin:2px; 
+}
+
+#menu a 
+{
+display : block; 
+padding : 0;
+background : #000;    
+color : #FFA500; 
+text-decoration : none; 
+width : 322px; 
+}
+
+#menu li       
+{ 
+float : left; 
+border-right : 1px solid #fff; 
+}
+
+
+html>body #menu li
+{
+border-right: 1px solid transparent ; 
+}
+
+#menu li ul 
+{ 
+position: absolute; 
+width: 147px; 
+left: -999em; 
+}
+
+
+#menu li ul li 
+
+border-top: 1px solid #fff; 
+}
+
+
+html>body #menu li ul li                
+{
+border-top: 1px solid transparent; 
+}
+
+#menu li ul ul 
+{
+margin: -22px 0 0 144px ; 
+border-left: 1px solid #fff ; 
+}
+
+
+html>body #menu li ul ul                
+{
+border-left     : 1px solid transparent ; 
+}
+
+#menu a:hover     
+{
+color: #000; 
+background: #FFA500; 
+}
+
+
+#menu li:hover ul ul, #menu li.sfhover ul ul 
+{
+left: -999em; 
+}
+
+#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul  
+{
+left: auto; 
+min-height: 0; 
+}
+
+h1 {
+margin:4px;
+font-family: impact;
+color: black;
+font-size: 24px;
+}
+
+h1:hover {
+
+color: orange;
+
+}
+
+p {
+font-family:impact;
+font-size: 15px;
+color:black;
+margin:4px;
+}
+
+.title1 {
+text-decoration: underline;
+color: black;
+}
+
+.title1:hover{
+color:orange;
+}
+
+
+#cadre1{
+background-color:none;
+float:left;
+text-align:left;
+width:313px;
+margin:1px;
+border:polaroid;
+border: 4px solid black;
+
+}
+
+
+
+
+.underlineORG::selection {
+  background-color: #FFA500;
+}
+
+
+
+.topright {
+    position: absolute;
+    top: -476px;
+    left: 1620px;
+}
+
+.container{
+	position:absolute;
+}
+
+.img{
+	position:absolute;
+		
+}
+
+#searchbar{
+position:relative; 
+width:1040px; 
+height:auto;
+		}
+
+
+.formulaire{
+display:inline-block;
+		}
+
+
+.formulaire .champ{
+width:600px;
+ height:35px;
+		}
+
+
+
+.formulaire .bouton{
+ background-image: url(images/searchbar_button.png);
+background-repeat: no-repeat;
+width: 35px;
+height: 35px;
+padding: 0; 
+		}
